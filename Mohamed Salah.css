@@ -1,0 +1,124 @@
+.name{
+    color:red;
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 3px 3px 3px blueviolet;
+    text-align: center;
+    background-color: rgb(197 142 67 / 24%);
+    border-radius: 120px;
+    border:3px solid black;
+
+
+}
+
+.photo{
+    background-color: black;
+    padding-left: 125px;
+    border:1px solid black;
+    border-radius: 50px;
+    animation-name:colorphotos;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+   
+
+
+
+}
+
+.photo1,.photo2,.photo3,.photo4,.photo5,.photo6,.photo7,.photo8{
+    animation-name:photos;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+
+}
+
+.photo1{
+   
+    animation-direction: normal;
+   
+
+}
+.photo2{
+
+    
+    animation-direction: reverse;
+
+
+}
+.photo3{
+    animation-direction: alternate;
+
+}
+.photo4{
+    animation-direction: alternate-reverse;
+
+}
+.photo5{
+
+    animation-direction: normal;
+}
+.photo6{
+    animation-direction: reverse;
+
+}
+.photo7{
+    animation-direction: alternate-reverse;
+
+
+}
+.photo8{
+    animation-direction: alternate;
+
+
+}
+
+@keyframes photos {
+ 
+to{
+     transform: translatey(-5px);
+     transform: scale(1.2);
+ } 
+    
+}
+
+@keyframes colorphotos {
+ 
+    0%{
+        background-color:black;
+    }
+    40%{
+         background-color: rgb(111, 133, 111);
+     } 
+     60%{
+        background-color: rgb(37, 36, 36);
+     }
+     80%{
+        background-color: rgb(153, 165, 42);
+     }
+
+
+     100%{
+        background-color: darkslategrey;
+     }
+        
+    }
+
+
+    .content{
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style: italic;
+        color:darkorange;
+        background-color: black;
+        margin:10px;
+        padding: 10px;
+        border-radius: 20px;
+    
+    }
+    body{
+        background-color: #0b0e0e26;
+        }

@@ -1,0 +1,20 @@
+body{
+    background-image: url("pexels-tim-mossholder-3643925.jpg");
+  }
+  
+  
+  
+  div{
+    color: brown;
+      font-size: xxx-large;
+      text-shadow: 3px 3px 3px rgb(141, 6, 6);
+      text-align: center;
+      position: absolute;
+      top: 43%;
+      left: 43%;
+      font-weight: bolder;
+      background-color: black;
+      border-radius: 98px;
+      cursor:pointer;
+      
+   }

@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+
+}
+.name{
+    background-color:rgb(100, 107, 100);
+    padding: 10px;
+    margin: 10px;
+    width:fit-content;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    outline: solid 10px #795548c2;
+    text-shadow: -2px 2px 4px red;
+    box-shadow: 21px -2px 3px 2px #936592 inset;
+    box-sizing: border-box;
+    position: relative;
+    left:38%;
+}
+
+.all{
+
+    background-color:rgb(100, 107, 100);
+    padding:20px 30px;
+     font-size:xx-large;
+     font-weight: bolder;
+     font-style: italic;
+     width:700px;
+     border:3px solid rgb(124, 74, 27);
+     border-radius: 94px;
+     outline:6px solid red;
+     margin-left:20%;
+     margin-right: 11%;
+     color:darkorange;
+     
+
+    }
+
+.photo{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.photo1,.photo2,.photo3,.photo4{
+    animation-name:photos;
+    animation-timing-function:ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    transition-delay: .1s;
+    
+
+
+}
+.photo1{
+   
+    animation-direction: normal;
+   
+
+}
+.photo2{
+
+    
+    animation-direction:reverse;
+
+
+}
+.photo3{
+    animation-direction: reverse;
+
+}
+.photo4{
+    animation-direction: normal;
+
+}
+
+@keyframes photos {
+ 
+      to{
+        width: 300;
+        height: 300;  
+    }
+}
+  
+
+    
